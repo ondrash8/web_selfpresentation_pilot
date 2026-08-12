@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ondřej Šimůnek</title>
+<meta name="description" content="Ondřej Šimůnek — Scrum master, organizátor Prague Handball Cup, bývalý reprezentant ČR v házené.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <span class="logo">OŠ</span>
+  <div class="header-controls">
+    <button id="lang-toggle" class="control-btn" aria-label="Switch language">CZ / EN</button>
+    <button id="theme-toggle" class="control-btn" aria-label="Toggle dark mode">
+      <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <img src="assets/profile.jpg" alt="Ondřej Šimůnek" class="hero-photo">
+      <h1>Ondřej Šimůnek</h1>
+      <p class="hero-tagline" data-i18n="hero.tagline"></p>
+    </div>
+  </section>
+
+  <div class="timeline-wrap">
+    <div class="timeline-rail" aria-hidden="true"></div>
+
+    <section class="category" id="it" data-accent="navy">
+      <div class="category-head">
+        <span class="category-label" data-i18n="it.label"></span>
+        <h2 data-i18n="it.title"></h2>
+      </div>
+
+      <article class="entry">
+        <span class="entry-dot" aria-hidden="true"></span>
+        <div class="entry-body">
+          <span class="entry-years">2022 — <span data-i18n="common.present"></span></span>
+          <h3 data-i18n="it.role1.title"></h3>
+          <p class="entry-org" data-i18n="it.role1.org"></p>
+          <ul>
+            <li data-i18n="it.role1.b1"></li>
+            <li data-i18n="it.role1.b2"></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry">
+        <span class="entry-dot" aria-hidden="true"></span>
+        <div class="entry-body">
+          <span class="entry-years">01/2018 — 06/2018</span>
+          <h3 data-i18n="it.role2.title"></h3>
+          <p class="entry-org" data-i18n="it.role2.org"></p>
+          <ul>
+            <li data-i18n="it.role2.b1"></li>
+          </ul>
+        </div>
+      </article>
+
+      <div class="skill-tags">
+        <span>SAFe Agile</span><span>JIRA</span><span>Confluence</span>
+      </div>
+    </section>
+
+    <section class="category" id="handball-org" data-accent="amber">
+      <div class="category-head">
+        <span class="category-label" data-i18n="org.label"></span>
+        <h2 data-i18n="org.title"></h2>
+      </div>
+
+      <article class="entry">
+        <span class="entry-dot" aria-hidden="true"></span>
+        <div class="entry-body">
+          <span class="entry-years">2023 — <span data-i18n="common.present"></span></span>
+          <h3 data-i18n="org.role1.title"></h3>
+          <p class="entry-org" data-i18n="org.role1.org"></p>
+          <p class="entry-context" data-i18n="org.role1.context"></p>
+          <ul>
+            <li data-i18n="org.role1.b1"></li>
+            <li data-i18n="org.role1.b2"></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry">
+        <span class="entry-dot" aria-hidden="true"></span>
+        <div class="entry-body">
+          <span class="entry-years">2018 — 2022</span>
+          <h3 data-i18n="org.role2.title"></h3>
+          <p class="entry-org" data-i18n="org.role2.org"></p>
+          <ul>
+            <li data-i18n="org.role2.b1"></li>
+            <li data-i18n="org.role2.b2"></li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="category" id="handball-player" data-accent="teal">
+      <div class="category-head">
+        <span class="category-label" data-i18n="player.label"></span>
+        <h2 data-i18n="player.title"></h2>
+      </div>
+
+      <article class="entry">
+        <span class="entry-dot" aria-hidden="true"></span>
+        <div class="entry-body">
+          <span class="entry-years">2008 — <span data-i18n="common.present"></span></span>
+          <h3 data-i18n="player.role1.title"></h3>
+          <p class="entry-org">HC Dukla Praha · HSG Freiberg · ASV Cham</p>
+        </div>
+      </article>
+
+      <article class="entry">
+        <span class="entry-dot" aria-hidden="true"></span>
+        <div class="entry-body">
+          <span class="entry-years">2012 — 2016</span>
+          <h3 data-i18n="player.role2.title"></h3>
+        </div>
+      </article>
+    </section>
+
+  </div>
+
+  <section class="details-grid">
+    <div class="detail-card">
+      <h3 data-i18n="education.title"></h3>
+      <p class="entry-org" data-i18n="education.degree"></p>
+      <p class="entry-context" data-i18n="education.school"></p>
+    </div>
+    <div class="detail-card">
+      <h3 data-i18n="languages.title"></h3>
+      <ul class="lang-list">
+        <li><span data-i18n="languages.cz"></span><span class="lang-level" data-i18n="languages.native"></span></li>
+        <li><span>English</span><span class="lang-level">C1</span></li>
+        <li><span data-i18n="languages.de"></span><span class="lang-level">B2</span></li>
+        <li><span data-i18n="languages.nl"></span><span class="lang-level">A1</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2 data-i18n="contact.title"></h2>
+    <p data-i18n="contact.subtitle"></p>
+    <div class="contact-actions">
+      <a href="mailto:simunek88@gmail.com" class="btn btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg>
+        <span data-i18n="contact.email"></span>
+      </a>
+      <a href="https://www.linkedin.com/in/ondrejsimunekhays/" class="btn btn-secondary" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        LinkedIn
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <a href="https://www.linkedin.com/in/ondrejsimunekhays/" target="_blank" rel="noopener" aria-label="LinkedIn">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+  </a>
+  <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+  </a>
+  <span class="footer-note" data-i18n="footer.note"></span>
+</footer>
+
+<script src="js/translations.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
