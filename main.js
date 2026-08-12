@@ -31,6 +31,15 @@
   applyLanguage(savedLang);
   applyTheme(savedTheme);
 
+  // Email obfuscation: assembled at runtime so simple bots scraping
+  // the raw HTML/source can't harvest a plain-text address.
+  const emailUser = "simunek88";
+  const emailDomain = "gmail.com";
+  const emailLink = document.getElementById("email-link");
+  if (emailLink) {
+    emailLink.setAttribute("href", "mailto:" + emailUser + "@" + emailDomain);
+  }
+
   langBtn.addEventListener("click", () => {
     const current = localStorage.getItem("lang") || "cz";
     applyLanguage(current === "cz" ? "en" : "cz");
