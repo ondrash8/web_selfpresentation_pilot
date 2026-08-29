@@ -40,6 +40,8 @@ const translations = {
     "languages.de": "Němčina",
     "languages.nl": "Nizozemština",
 
+    "logos.title": "Spolupracoval jsem s",
+
     "contact.title": "Pojďme se spojit",
     "contact.subtitle": "Ozvěte se přes e-mail nebo LinkedIn.",
     "contact.email": "Napsat e-mail",
@@ -86,6 +88,8 @@ const translations = {
     "languages.native": "native",
     "languages.de": "German",
     "languages.nl": "Dutch",
+
+    "logos.title": "Organizations I've worked with",
 
     "contact.title": "Let's connect",
     "contact.subtitle": "Reach out via email or LinkedIn.",
