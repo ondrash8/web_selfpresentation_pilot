@@ -1,0 +1,23 @@
+{
+  "name": "primary",
+  "version": "1.0.0",
+  "description": "selfpresentation website as vibecoding pilot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ondrash8/web_selfpresentation_pilot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ondrash8/web_selfpresentation_pilot/issues"
+  },
+  "homepage": "https://github.com/ondrash8/web_selfpresentation_pilot#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
