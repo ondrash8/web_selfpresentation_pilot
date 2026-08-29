@@ -34,23 +34,20 @@
   </section>
 
   <section class="gallery" aria-label="Photo gallery">
-    <div class="gallery-inner">
-      <div class="carousel" id="carousel">
-        <div class="carousel-track" id="carousel-track">
-          <figure class="carousel-slide"><img src="assets/gallery/photo-1.jpg" alt="Ondřej Šimůnek celebrating with HSG Freiberg teammates after a handball match"></figure>
-          <figure class="carousel-slide"><img src="assets/gallery/photo-2.jpg" alt="Professional handball match action"></figure>
-          <figure class="carousel-slide"><img src="assets/gallery/photo-3.jpg" alt="Ondřej Šimůnek wearing a Prague Handball Cup hoodie"></figure>
-          <figure class="carousel-slide"><img src="assets/gallery/photo-4.jpg" alt="Ondřej Šimůnek on a high-altitude mountain trek"></figure>
-          <figure class="carousel-slide"><img src="assets/gallery/photo-5.jpg" alt="Ondřej Šimůnek speaking at a Czech Handball Federation press conference"></figure>
-          <figure class="carousel-slide"><img src="assets/gallery/photo-6.jpg" alt="Ondřej Šimůnek — professional photo"></figure>
-        </div>
-        <button class="carousel-arrow carousel-prev" id="carousel-prev" aria-label="Previous photo">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
-        </button>
-        <button class="carousel-arrow carousel-next" id="carousel-next" aria-label="Next photo">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
-        </button>
-        <div class="carousel-dots" id="carousel-dots"></div>
+    <div class="marquee-row">
+      <div class="marquee-track">
+        <figure><img src="assets/gallery/photo-1.jpg" alt="Ondřej Šimůnek celebrating with HSG Freiberg teammates after a handball match" loading="lazy"></figure>
+        <figure><img src="assets/gallery/photo-2.jpg" alt="Professional handball match action" loading="lazy"></figure>
+        <figure><img src="assets/gallery/photo-3.jpg" alt="Ondřej Šimůnek wearing a Prague Handball Cup hoodie" loading="lazy"></figure>
+        <figure><img src="assets/gallery/photo-4.jpg" alt="Ondřej Šimůnek on a high-altitude mountain trek" loading="lazy"></figure>
+        <figure><img src="assets/gallery/photo-5.jpg" alt="Ondřej Šimůnek speaking at a Czech Handball Federation press conference" loading="lazy"></figure>
+        <figure><img src="assets/gallery/photo-6.jpg" alt="Ondřej Šimůnek — professional photo" loading="lazy"></figure>
+        <figure aria-hidden="true"><img src="assets/gallery/photo-1.jpg" alt="" loading="lazy"></figure>
+        <figure aria-hidden="true"><img src="assets/gallery/photo-2.jpg" alt="" loading="lazy"></figure>
+        <figure aria-hidden="true"><img src="assets/gallery/photo-3.jpg" alt="" loading="lazy"></figure>
+        <figure aria-hidden="true"><img src="assets/gallery/photo-4.jpg" alt="" loading="lazy"></figure>
+        <figure aria-hidden="true"><img src="assets/gallery/photo-5.jpg" alt="" loading="lazy"></figure>
+        <figure aria-hidden="true"><img src="assets/gallery/photo-6.jpg" alt="" loading="lazy"></figure>
       </div>
     </div>
   </section>
@@ -67,6 +64,7 @@
       <article class="entry">
         <span class="entry-dot" aria-hidden="true"></span>
         <div class="entry-body">
+          <span class="logo-chip"><img src="assets/logos/kbc.png" alt="KBC Global Services"></span>
           <span class="entry-years">2022 — <span data-i18n="common.present"></span></span>
           <h3 data-i18n="it.role1.title"></h3>
           <p class="entry-org" data-i18n="it.role1.org"></p>
@@ -80,6 +78,7 @@
       <article class="entry">
         <span class="entry-dot" aria-hidden="true"></span>
         <div class="entry-body">
+          <span class="logo-chip"><img src="assets/logos/hays.png" alt="Hays"></span>
           <span class="entry-years">01/2018 — 06/2018</span>
           <h3 data-i18n="it.role2.title"></h3>
           <p class="entry-org" data-i18n="it.role2.org"></p>
@@ -103,6 +102,7 @@
       <article class="entry">
         <span class="entry-dot" aria-hidden="true"></span>
         <div class="entry-body">
+          <span class="logo-chip"><img src="assets/logos/phc.png" alt="Prague Handball Cup"></span>
           <span class="entry-years">2023 — <span data-i18n="common.present"></span></span>
           <h3 data-i18n="org.role1.title"></h3>
           <p class="entry-org" data-i18n="org.role1.org"></p>
@@ -117,6 +117,7 @@
       <article class="entry">
         <span class="entry-dot" aria-hidden="true"></span>
         <div class="entry-body">
+          <span class="logo-chip"><img src="assets/logos/csh.png" alt="Česká házenkářská federace"></span>
           <span class="entry-years">2018 — 2022</span>
           <h3 data-i18n="org.role2.title"></h3>
           <p class="entry-org" data-i18n="org.role2.org"></p>
@@ -137,6 +138,11 @@
       <article class="entry">
         <span class="entry-dot" aria-hidden="true"></span>
         <div class="entry-body">
+          <span class="logo-chip-group">
+            <span class="logo-chip"><img src="assets/logos/dukla.png" alt="HC Dukla Praha"></span>
+            <span class="logo-chip"><img src="assets/logos/freiberg.png" alt="HSG Freiberg"></span>
+            <span class="logo-chip"><img src="assets/logos/cham.png" alt="ASV Cham"></span>
+          </span>
           <span class="entry-years">2008 — <span data-i18n="common.present"></span></span>
           <h3 data-i18n="player.role1.title"></h3>
           <p class="entry-org">HC Dukla Praha · HSG Freiberg · ASV Cham</p>
@@ -146,6 +152,7 @@
       <article class="entry">
         <span class="entry-dot" aria-hidden="true"></span>
         <div class="entry-body">
+          <span class="logo-chip"><img src="assets/logos/csh.png" alt="Česká házenkářská federace"></span>
           <span class="entry-years">2012 — 2016</span>
           <h3 data-i18n="player.role2.title"></h3>
         </div>
@@ -156,6 +163,7 @@
 
   <section class="details-grid">
     <div class="detail-card">
+      <span class="logo-chip"><img src="assets/logos/uk.png" alt="Univerzita Karlova"></span>
       <h3 data-i18n="education.title"></h3>
       <p class="entry-org" data-i18n="education.degree"></p>
       <p class="entry-context" data-i18n="education.school"></p>
@@ -168,21 +176,6 @@
         <li><span data-i18n="languages.de"></span><span class="lang-level">B2</span></li>
         <li><span data-i18n="languages.nl"></span><span class="lang-level">A1</span></li>
       </ul>
-    </div>
-  </section>
-
-  <section class="logos" aria-label="Organizations">
-    <p class="logos-label" data-i18n="logos.title"></p>
-    <div class="logos-strip">
-      <div class="logo-badge" data-logo="kbc"><img src="assets/logos/kbc.png" alt="KBC Global Services"></div>
-      <div class="logo-badge" data-logo="hays"><img src="assets/logos/hays.png" alt="Hays"></div>
-      <div class="logo-badge" data-logo="csh"><img src="assets/logos/csh.jpg" alt="Česká házenkářská federace"></div>
-      <div class="logo-badge" data-logo="phc"><img src="assets/logos/phc.png" alt="Prague Handball Cup"></div>
-      <div class="logo-badge" data-logo="uk"><img src="assets/logos/uk.jpg" alt="Univerzita Karlova"></div>
-      <div class="logo-badge" data-logo="dukla"><img src="assets/logos/dukla.png" alt="HC Dukla Praha"></div>
-      <div class="logo-badge" data-logo="freiberg"><img src="assets/logos/freiberg.jpg" alt="HSG Freiberg"></div>
-      <div class="logo-badge" data-logo="cham"><img src="assets/logos/cham.jpeg" alt="ASV Cham"></div>
-      <div class="logo-badge" data-logo="kutnahora"><img src="assets/logos/kutnahora.jpeg" alt="TJ Sparta Kutná Hora"></div>
     </div>
   </section>
 
